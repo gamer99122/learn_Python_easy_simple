@@ -35,6 +35,8 @@ while True:
     print('')
 
 
+# 備註說明:運用到Random、int、while、if..elif
+
 
 
 
