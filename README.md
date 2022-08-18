@@ -4,6 +4,7 @@
 
 08/18  
 1.新增38_guess_num，猜數字
+2.新增44_review_analytics，新增讀取留言分析程式
 
 git 指令  
 git add 檔名  
