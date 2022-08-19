@@ -3,10 +3,10 @@
 2.新增31_driving，年齡判斷程式 
 
 08/18  
-1.新增38_guess_num，猜數字
-2.新增44_review_analytics，新增讀取留言分析程式
+1.新增38_guess_num，猜數字  
+2.新增44_review_analytics，新增讀取留言分析程式  
 
-08/19
+08/19  
 1.新增49_product，建立記帳程式專案  
 
 git 指令  
