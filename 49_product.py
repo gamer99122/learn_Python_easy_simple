@@ -1,3 +1,6 @@
+from asyncore import loop
+
+
 product = []
 
 while True:
@@ -25,3 +28,10 @@ while True:
 for p in product:
     # print(p)
     print('商品名稱:',p[0],'價格:',p[1])
+
+#備註:
+# while loop
+# input
+# list
+# for loop
+# print
