@@ -9,6 +9,9 @@
 08/19  
 1.新增49_product，建立記帳程式專案  
 
+08/20  
+1.49_product，新增讀檔案寫檔案功能  
+
 git 指令  
 git add 檔名  
 git commit -m "版本訊息"  
