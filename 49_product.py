@@ -1,35 +1,30 @@
-from asyncore import loop
-
-
-product = []
+products49 = []
+# # 讀檔案
+with open('products.csv', 'r') as f:
+    for line in f:
+        if '商品,價格' in line:
+            continue
+        name, price = line.strip().split(',')
+        products49.append([name, price])
+print(products49)
 
 while True:
     name = input('請輸入你的產品名稱:')
-
     if name == 'q':
         break
     price = input('請輸入你的價錢:')
-    
-    # 第一種寫法
-    # detail =[]
-    # detail.append(name)
-    # detail.append(price)
-    # product.append(detail)
+    products49.append([name, price])
+print(products49)
 
-    # 第二種寫法
-    # detail=[name,price]
-    # product.append(detail)
+for p in products49:
+    print(p[0], '的價格是', p[1])
 
-    # 第三種寫法
-    product.append([name,price])
+with open('products.csv', 'w') as f:
+    f.write('商品,價格\n')
+    for p in products49:
+        f.write(p[0]+','+str(p[1])+'\n')
 
-# print(product)
-
-for p in product:
-    # print(p)
-    print('商品名稱:',p[0],'價格:',p[1])
-
-#備註:
+# 備註:
 # while loop
 # input
 # list
