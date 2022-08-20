@@ -1,12 +1,28 @@
+from genericpath import isfile
+import os
+
 products49 = []
-# # 讀檔案
-with open('products.csv', 'r') as f:
-    for line in f:
-        if '商品,價格' in line:
-            continue
-        name, price = line.strip().split(',')
-        products49.append([name, price])
-print(products49)
+
+is_csv_file = False
+
+# 判斷檔案是否存在
+if os.path.isfile('products.csv'):
+    print('檔案存在')
+    is_csv_file = True
+else:
+    print('檔案不存在')
+
+
+# 如果檔案有存在就讀檔案，如果沒有products.csv，直接讀檔會發生錯誤
+if is_csv_file == True :
+    # # 讀檔案
+    with open('products.csv', 'r') as f:
+        for line in f:
+            if '商品,價格' in line:
+                continue
+            name, price = line.strip().split(',')
+            products49.append([name, price])
+    print(products49)
 
 while True:
     name = input('請輸入你的產品名稱:')
