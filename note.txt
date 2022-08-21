@@ -1,0 +1,56 @@
+寫入檔案起手式
+with open('檔名.csv','w') as f:
+    f.write('要寫入的內容')
+
+with=>可以在最後自動關閉檔案(close)
+
+寫入檔案，遇到編碼的問題，加入utf-8 (X)
+with open('檔名.csv','w',encoding='utf-8') as f:
+    f.write('要寫入的內容')
+
+
+
+.split(',') => 來用逗點做切割
+.strip()=>來除掉換行符號(\n)
+
+Continue
+continue跟break 一樣只能寫在迴圈裡
+continue就是跳到下一迴的意思
+
+
+import os
+------------------------------------
+is_csv_file = False
+
+# 判斷檔案是否存在
+if os.path.isfile('products.csv'):
+    print('檔案存在')
+    is_csv_file = True
+else:
+    print('檔案不存在')
+------------------------------------
+
+function 函式/功能
+
+1.function 是用來 [收納] 程式碼的
+2.他是個功能
+3.範例
+def wash():
+    print('Hello')
+    Print('World')
+
+呼叫wash()
+------------------------------------
+function 函式-參數
+範例:
+
+def wash(參數):
+    print(參數)
+
+------------------------------------
+function 函式-回傳
+def wash():
+    return True
+
+
+
