@@ -52,5 +52,20 @@ function 函式-回傳
 def wash():
     return True
 
+------------------------------------
+CP950
+表示讀檔案時，有編碼上的問題
+encoding='utf-8' => 解決方法
+with open('r1/input.txt', 'r', encoding='utf-8') as f:
 
+另類去怪符號
+encoding='utf-8-sig'
 
+-------------------------------------
+去換行符號 /n
+strip
+string.strip()
+-------------------------------------
+None 定義
+可以給變數預設值，防程式出錯
+person=None
