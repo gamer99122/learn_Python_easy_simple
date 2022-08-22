@@ -18,24 +18,26 @@ def convert(lines):
         elif line == 'Tom':
             person = 'Tom'
             continue
-        # print(line)
-        new.append(person+':'+line)
+        print(line)
+        # new.append(person+':'+line)
 
-    # for tmpnew in new:
-    #     print(tmpnew)
-    return new
+    # # for tmpnew in new:
+    # #     print(tmpnew)
+    # return new
 
 
 def write_file(filename, lines):
-    with open('r1/'+filename, 'w') as f:
+    with open(filename, 'w') as f:
         for line in lines:
             f.write(line + '\n')
 
 
 def main():
-    lines = read_file('r1/input.txt')
+    lines = read_file('input.txt')
     # print(lines)
-    lines = convert(lines)
+    # lines = convert(lines)
+    convert(lines)
     write_file('Output.txt', lines)
+
 
 main()
