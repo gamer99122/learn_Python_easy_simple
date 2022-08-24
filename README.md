@@ -12,9 +12,9 @@
 08/20  
 1.49_product，新增讀檔案寫檔案功能  
 
-08/24
-1.新增r3，對話紀錄3-程式改寫
-2.新增67_review_analytics.py，進階解析對話
+08/24  
+1.新增r3，對話紀錄3-程式改寫  
+2.新增67_review_analytics.py，進階解析對話  
 
 git 指令  
 git add 檔名  
