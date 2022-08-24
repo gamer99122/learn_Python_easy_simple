@@ -14,6 +14,7 @@
 
 08/24
 1.新增r3，對話紀錄3-程式改寫
+2.新增67_review_analytics.py，進階解析對話
 
 git 指令  
 git add 檔名  
