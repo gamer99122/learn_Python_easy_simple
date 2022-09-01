@@ -96,8 +96,22 @@ Dictionary 字典
 ------------------------------------
 下載Python 第三方套件
 地方:PyPI
-舉例套件 :progressbar2
+舉例套件 :progressbar2 進度顯示
 安裝套件 :pip install progressbar2
+
+------------------------------------
+第三方套件
+Openpyxl
+官網:https://openpyxl.readthedocs.io/en/stable/
+安裝套件 : pip install openpyxl
+------------------------------------
+第三方套件
+python-docx
+官網:https://python-docx.readthedocs.io/en/latest/
+安裝套件 : pip install python-docx
+------------------------------------
+第三方套件 圖表
+
 ------------------------------------
 寫法上的常見問題：
 1.空格錯誤 IndentationError/TabError
