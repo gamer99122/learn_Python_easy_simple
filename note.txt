@@ -111,10 +111,10 @@ python-docx
 安裝套件 : pip install python-docx
 ------------------------------------
 第三方套件 圖表
-
+官網: python Matplotlib
+安裝套件 :
 ------------------------------------
 寫法上的常見問題：
 1.空格錯誤 IndentationError/TabError
 2.語法錯誤 SyntaxError
 3.名稱錯誤 NameError
-
