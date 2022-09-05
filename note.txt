@@ -118,3 +118,46 @@ python-docx
 1.空格錯誤 IndentationError/TabError
 2.語法錯誤 SyntaxError
 3.名稱錯誤 NameError
+------------------------------------
+Class 類別
+可以先看85.Import 載入第三方套件
+以及87.88.89.90
+在Python的世界，所有的東西都是一個物件(Object)
+
+在Python 的世界，所有東西都是物件(Object)
+每個物件都有它自己的種類(Class)
+我們如果要發明自己的種類，
+我們就要寫自己的class
+
+屬性 => dir(物件) =>看object有什麼屬性
+------------------------------------
+寫在class 是在設計一張藍圖
+寫法：
+class <class名稱>:
+    def __init__(self):
+    def 其他func(self):
+
+範例：
+class int:
+    def __abs__():
+    def __add__():
+範例：
+class Student:
+    def __init__(self): #initialize 初始化
+        print('我誕生了')
+    def do_hw(self):
+        print('我在做作業')
+    def study(self):
+        print('我在讀書')
+
+s = Student()
+s.do_hw()
+
+
+
+
+
+
+
+
+
