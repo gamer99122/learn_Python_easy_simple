@@ -154,6 +154,13 @@ class Student:
 s = Student()
 s.do_hw()
 
+class 提點:
+1.class 名字第一個字要大寫
+2.class 裡的function(method) 沒有順序差別
+3.self 增加屬性不一定要在init裡
+4.class 裡的function叫做method
+5.method 間隔一行，function間隔兩行
+
 
 
 
